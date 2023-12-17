@@ -334,6 +334,26 @@ img {
   justify-content: center;
 }
 
+.portfolio-info {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  padding: 40px 32px;
+  background: #4d5ae5;
+  color: #f4f4fd;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
 .portfolio-text {
   padding: 32px 16px;
   border: 1px solid var(--CORNFLOWER, #e7e9fc);

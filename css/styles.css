@@ -80,6 +80,7 @@ section {
   padding-top: 24px;
   padding-bottom: 24px;
   padding-left: 0;
+  position: relative;
 }
 
 .link:hover,
@@ -94,6 +95,8 @@ section {
   height: 4px;
   border-radius: 2px;
   background: #404bbf;
+  position: absolute;
+  bottom: -1px;
 }
 
 .header-list .link.active {

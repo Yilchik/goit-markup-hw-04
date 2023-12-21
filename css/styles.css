@@ -224,6 +224,7 @@ img {
     ),
     url(../images/people-office1.jpg);
   max-width: 1440px;
+  margin: 0 auto;
 }
 
 .hero-page {
@@ -269,6 +270,7 @@ img {
   margin: 0;
   justify-content: center;
   align-items: center;
+  box-sizing: content-box;
 }
 
 .feature-box {
@@ -280,11 +282,6 @@ img {
   border: 1px solid #8e8f99;
   background: #f4f4fd;
   margin-bottom: 8px;
-}
-
-.feature-icon {
-  padding: 24px 100px;
-  box-sizing: content-box;
 }
 
 .team {
@@ -389,8 +386,8 @@ img {
 
 .portfolio-foto:hover .overlay {
   transform: translateY(0);
-  transition: transform;
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  transition: transform box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-text {
@@ -455,7 +452,6 @@ img {
   letter-spacing: 0.32px;
   color: #ffffff;
   width: 264px;
-  margin-bottom: 16px;
 }
 
 .footer-social {
@@ -481,5 +477,4 @@ img {
 .footer-social-media {
   font-weight: 500;
   color: #ffffff;
-  margin-bottom: 16px;
 }

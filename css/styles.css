@@ -452,6 +452,7 @@ img {
   letter-spacing: 0.32px;
   color: #ffffff;
   width: 264px;
+  margin-bottom: 16px;
 }
 
 .footer-social {
@@ -477,4 +478,5 @@ img {
 .footer-social-media {
   font-weight: 500;
   color: #ffffff;
+  margin-bottom: 16px;
 }

@@ -296,7 +296,7 @@ img {
   gap: 24px;
 }
 
-.t .team-foto {
+.team-foto {
   background-color: #ffffff;
   letter-spacing: 0.02em;
   border-radius: 0px 0px 4px 4px;
@@ -454,7 +454,11 @@ img {
   width: 264px;
 }
 
-.social {
+.footer-p-social {
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: #ffffff;
+  width: 264px;
   margin-bottom: 8px;
 }
 
